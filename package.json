@@ -1,0 +1,20 @@
+{
+  "name": "s3_lambda_es",
+  "description": "AWS Lambda to get ELB log files from S3 and parse them to ES",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "Oleksandr Mykhalchuk",
+      "email": "mykhalchuk.oleksandr@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "aws-sdk": "2.2.48",
+    "elb-log-parser": "0.0.2",
+    "path": "0.12.7",
+    "stream": "0.0.2",
+    "byline": "4.2.1"
+  },
+  "repository": "https://github.com/blmr/aws-elb-logs-to-elasticsearch.git",
+  "license": "Amazon Software License"
+}
